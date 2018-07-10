@@ -36,6 +36,7 @@
     <option name="SELECTION_FOREGROUND" value="ddddcc" />
     <option name="TEARLINE_COLOR" value="2b2b2b" />
     <option name="WHITESPACES" value="505050" />
+    <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="b6932c" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">
@@ -539,6 +540,11 @@
         <option name="FOREGROUND" value="bfa4a4" />
       </value>
     </option>
+    <option name="PY.BUILTIN_NAME">
+      <value>
+        <option name="FOREGROUND" value="b16a95" />
+      </value>
+    </option>
     <option name="PY.CLASS_DEFINITION">
       <value>
         <option name="FOREGROUND" value="767799" />
@@ -547,7 +553,7 @@
     </option>
     <option name="PY.FUNC_DEFINITION">
       <value>
-        <option name="FOREGROUND" value="995e61" />
+        <option name="FOREGROUND" value="af6d72" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -555,6 +561,12 @@
       <value>
         <option name="FOREGROUND" value="966d99" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="PY.STRING.U">
+      <value>
+        <option name="FOREGROUND" value="9c9c" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">
