@@ -1,4 +1,7 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivatePythonConsoleToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+  </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
@@ -30,8 +33,6 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
-  <action id="MethodDown" />
-  <action id="MethodUp" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
