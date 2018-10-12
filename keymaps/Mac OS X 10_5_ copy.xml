@@ -3,6 +3,21 @@
     <keyboard-shortcut first-keystroke="meta open_bracket" />
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="ChangesView.SetDefault" />
+  <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
+  <action id="CodeCompletion" />
+  <action id="Console.History.Browse">
+    <keyboard-shortcut first-keystroke="meta alt e" />
+    <keyboard-shortcut first-keystroke="shift ctrl h" />
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+  </action>
+  <action id="Diff.NextChange">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+    <keyboard-shortcut first-keystroke="meta alt right" />
+  </action>
+  <action id="EditorToggleStickySelection">
+    <keyboard-shortcut first-keystroke="ctrl space" />
+  </action>
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="shift alt e" />
     <keyboard-shortcut first-keystroke="shift ctrl e" />
@@ -15,12 +30,13 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="MethodDown" />
+  <action id="MethodUp" />
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl right" />
     <keyboard-shortcut first-keystroke="meta alt right" />
   </action>
   <action id="PreviousTab">
@@ -28,4 +44,5 @@
     <keyboard-shortcut first-keystroke="ctrl left" />
     <keyboard-shortcut first-keystroke="meta alt left" />
   </action>
+  <action id="ShowContent" />
 </keymap>
