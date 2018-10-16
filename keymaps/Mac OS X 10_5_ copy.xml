@@ -14,6 +14,19 @@
   <action id="ChangesView.SetDefault" />
   <action id="ChoosePrevSubsequentPropertyValueEditorAction" />
   <action id="CodeCompletion" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta slash" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta slash" />
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+  </action>
   <action id="Console.History.Browse">
     <keyboard-shortcut first-keystroke="meta alt e" />
     <keyboard-shortcut first-keystroke="shift ctrl h" />
