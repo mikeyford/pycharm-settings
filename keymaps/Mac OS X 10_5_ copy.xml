@@ -1,6 +1,11 @@
 <keymap version="1" name="Mac OS X 10.5+ copy" parent="Mac OS X 10.5+">
+  <action id="ActivateProjectToolWindow">
+    <keyboard-shortcut first-keystroke="meta 1" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="ActivatePythonConsoleToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="shift ctrl right" />
   </action>
   <action id="Back">
     <keyboard-shortcut first-keystroke="meta open_bracket" />
@@ -26,6 +31,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
+  <action id="ExpressionTypeInfo" />
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
@@ -39,6 +45,7 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
+  <action id="NextEditorTab" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
