@@ -32,6 +32,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl h" />
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
+  <action id="DebugClass" />
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -45,12 +46,26 @@
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ExpressionTypeInfo" />
+  <action id="FindUsages">
+    <keyboard-shortcut first-keystroke="alt f7" />
+    <keyboard-shortcut first-keystroke="shift ctrl u" />
+  </action>
   <action id="Forward">
     <keyboard-shortcut first-keystroke="meta close_bracket" />
     <mouse-shortcut keystroke="button5" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="GotoDeclaration">
+    <keyboard-shortcut first-keystroke="meta b" />
+    <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="button2" />
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+  </action>
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="ctrl escape" />
   </action>
   <action id="Macro.reload_main">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
@@ -73,6 +88,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
   <action id="RunClass" />
+  <action id="RunDashboard.Debug" />
   <action id="RunDashboard.Run" />
   <action id="ShowContent" />
 </keymap>
