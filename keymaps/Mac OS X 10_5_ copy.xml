@@ -33,6 +33,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl up" />
   </action>
   <action id="DebugClass" />
+  <action id="Debugger.Tree.EvaluateInConsole">
+    <keyboard-shortcut first-keystroke="shift ctrl e" />
+  </action>
   <action id="Diff.NextChange">
     <keyboard-shortcut first-keystroke="shift meta close_bracket" />
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -46,7 +49,6 @@
   </action>
   <action id="ExecuteInPyConsoleAction">
     <keyboard-shortcut first-keystroke="shift alt e" />
-    <keyboard-shortcut first-keystroke="shift ctrl e" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="ExpressionTypeInfo" />
