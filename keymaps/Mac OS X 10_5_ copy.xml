@@ -98,4 +98,7 @@
   <action id="RunDashboard.Debug" />
   <action id="RunDashboard.Run" />
   <action id="ShowContent" />
+  <action id="XDebugger.SwitchWatchesInVariables">
+    <keyboard-shortcut first-keystroke="shift ctrl v" />
+  </action>
 </keymap>
