@@ -1,0 +1,8 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="plt.show()">
+      <typing text-keycode="80:0;76:0;84:0;46:0;83:0;72:0;79:0;87:0;0:1;0:1">plt.show()</typing>
+      <shortuct text="ENTER" />
+    </macro>
+  </component>
+</application>
