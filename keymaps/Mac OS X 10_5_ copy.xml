@@ -37,7 +37,6 @@
     <keyboard-shortcut first-keystroke="meta n" />
   </action>
   <action id="JupyterRunCellAction" />
-  <action id="JupyterRunCellSelectBelowAction" />
   <action id="JupyterSelectCellAboveAction" />
   <action id="JupyterSelectCellBelowAction" />
   <action id="Macro.plt.show()">
