@@ -1,5 +1,6 @@
 <code_scheme name="Default" version="173">
   <Python>
+    <option name="SPACE_AROUND_POWER_OPERATOR" value="false" />
     <option name="DICT_ALIGNMENT" value="2" />
   </Python>
   <codeStyleSettings language="Python">
